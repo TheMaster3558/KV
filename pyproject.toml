@@ -25,5 +25,5 @@ dev = [
     "basedpyright>=1.39.10",
     "sphinx>=9.1.0",
     "autodoc>=0.1.0",
-    "shibuya>=2026.7.12,
+    "shibuya>=2026.7.12"
 ]
