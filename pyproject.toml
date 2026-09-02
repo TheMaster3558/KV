@@ -1,5 +1,6 @@
 [project]
 name = "KV"
+version = "1.0.0"
 requires-python = ">=3.14"
 
 [tool.ruff]
@@ -24,5 +25,5 @@ dev = [
     "basedpyright>=1.39.10",
     "sphinx>=9.1.0",
     "autodoc>=0.1.0",
-    "spibuya>=2026.7.12"
+    "shibuya>=2026.7.12,
 ]
