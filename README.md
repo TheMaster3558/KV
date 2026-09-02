@@ -2,6 +2,10 @@
 
 A small asynchronous key-value server and client written in Python with `asyncio`. The project provides a lightweight TCP-based API for storing and retrieving values, along with a simple in-memory database backend. It is intentionally compact: a single server process handles client requests, a typed binary protocol serializes messages, and the client exposes both a direct connection and a reusable connection pool.
 
+## Documentation
+
+View at https://themaster3558.github.io/KV/
+
 ## Editing the project
 
 Install pyright and ruff using this command:
