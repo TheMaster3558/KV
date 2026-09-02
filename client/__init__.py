@@ -1,4 +1,4 @@
-from .connection import connect, Connection
-from .pool import create_pool, Pool
+from .connection import Connection, connect
+from .pool import Pool, create_pool
 
 __all__ = ('Connection', 'Pool', 'connect', 'create_pool')
