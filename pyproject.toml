@@ -27,3 +27,10 @@ dev = [
     "autodoc>=0.1.0",
     "shibuya>=2026.7.12"
 ]
+
+[tool.setuptools.packages.find]
+include = [
+    "client*",
+    "common*",
+    "server*",
+]
