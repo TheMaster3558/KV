@@ -1,0 +1,24 @@
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+
+[tool.ruff.format]
+line-ending = "lf"
+quote-style = "single"
+
+[tool.pyright]
+reportUnannotatedClassAttribute = false
+reportUnusedCallResult = false
+reportPrivateUsage = false
+reportIgnoreCommentWithoutRule = false
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.16.5",
+    "basedpyright>=1.39.10",
+    "sphinx>=9.1.0",
+    "autodoc>=0.1.0",
+    "spibuya>=2026.7.12"
+]
